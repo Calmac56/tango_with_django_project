@@ -1,0 +1,20 @@
+<!DOCTYPE html> 
+{% load static %}
+<hmtml>
+    <head>
+        <title>Rango</title>
+        <body>
+            <h1>Rango says...</h1>
+            <div>
+                here is the about page <br />
+            <strong> This tutorial has been put together by {{ boldmessage }} </strong> <br />
+            <div>
+                <a href="/rango">Index</a><br />
+                <img src="{% static 'images/rango.jpg'%}" alt="Picture of Rango" />
+            </div>
+            </div>
+            <div>
+                <img src ="{{ MEDIA_URL}}cat.jpg" alt="Picture of a cat" />
+            </div>
+    </head>
+</hmtml>
