@@ -17,7 +17,7 @@ def populate():
     olikes = 16
 
     python_pages = [{
-    'title': 'Official Python tutorial',
+    'title': 'Official Python Tutorial',
     'url': 'http://docs.python.org/3/tutorial/'},
     {'title':'How to Think like a Computer Scientist',
     'url':'http://www.greenteapress.com/thinkpython/'},
