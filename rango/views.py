@@ -10,6 +10,7 @@ from rango.forms import UserForm, UserProfileForm
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from datetime import datetime
+k
 
 
 def show_category(request, category_name_slug):
